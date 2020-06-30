@@ -1,0 +1,61 @@
+body.bg {
+    background: url("Pictures/bg_main.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.carousel {
+    margin: 0% 20% 5% 20%;
+    max-width: 400px;
+    max-height: 200px;
+    box-shadow: 0 1vw 2vw 0 #000000;
+}
+
+img.img_media {
+    width: 7vw;
+    height: 7vw;
+}
+
+div.footer1 {
+    color: lightgray;
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+tr {
+    color: white;
+}
+
+tr.black_text {
+    color: black;
+}
+
+div {
+    font-size: 1.5vw;
+    color: white;
+}
+
+nav {
+    opacity: 0.5;
+    background: orange;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 960px) {
+
+    svg  {
+        display: none;
+    }
+
+}
+
+math {
+    font-family: Latin Modern Math;
+}
